@@ -1,0 +1,42 @@
+h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	border-bottom-style: groove;
+	text-shadow: 1px 1px #05067F;
+	margin: 5px
+}	
+
+
+
+div {
+	padding: 20px;
+	border: 1px groove rgba(0,0,0,1.00);
+  }
+
+h6{
+	
+      height: 50px;
+      background-color:#000000; 
+	margin: 0;color: #fff;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body  {
+	background-clip: content-box;
+	background-image: radial-gradient(circle,red, blue)
+}
+
+h3{
+	
+	border: 1px solid;
+      height: 120px;
+      background-color:#000000; 
+	margin: 0;color: #fff;
+	
+}
