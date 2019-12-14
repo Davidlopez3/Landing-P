@@ -15,13 +15,13 @@
 <title>Draft Landing Page </title>
 </head>
 
-<body>
+<body id="home">
 	<!-- Title B.  -->
 		<!-- Logo B.  -->
 	<img src="x-s.PNG" style="width: auto; height: 500;max-width: 220px;max-height: 100px">
 			<!--Logo Ends    -->
-<div class="center">
-	<img src="X_Elite.png"  style="width: auto; height: 500;max-width: 400px;max-height: 100px"></div>
+	<div class="center">
+	<img src="Landing-P/X_Elite.png"  style="width: 200; height: 200;max-width: 200px;max-height: 700px"></div>
 	<!-- Title Ends  -->
 	
 	<!-- Promes Begins  -->
@@ -34,11 +34,143 @@
 		<!-- Benefits Ends  -->
 	</div>
 	<!-- Row Begins  -->
+	<div class="alert alert-success" role="alert">
+  		<h4 class="alert-heading">Well done!</h4>
+  			<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  		<hr>
+  		<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+		</div>
 	<!-- buttom Begins  -->
 		
-			<div class=".col-6 .col-lg-4"><br>
-	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" href="#register" data-dismiss="modal" aria-label="Close">Register Now</button>
-	</div>
+			<center>
+			<button type="button" class="btn btn-light btn-lg d-block mx-auto" data-toggle="modal" href="#register">Don't Miss Out, Register Now</button>
+		</center>
+		<!-- Schedule  end -->
+		<!-- Modal -->
+		<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title" id="exampleModalLabel">Register for World Camp</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div data-toggle="modal">
+							<div data-target="#register">
+							</div>
+						</div>
+						<form>
+							<h1> Basic Info </h1>
+							<hr>
+							<div class="form-row">
+								<label for="recipient-name"> 	Name </label>
+								<input type="text" id="recipient-name" class="form-control" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Email address</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+							</div>
+							<div class="valid-feedback">
+							</div>
+
+							<div class="form-group">
+								<label for="exampleFormControlSelect1">Job Roles:</label>
+								<select class="form-control" id="exampleFormControlSelect1">
+									<option>WorldPres Developer </option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="valid-feedback">
+							</div>
+							<hr>
+							<h3> Which Topics Intrest You Most ?</h3>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								<label class="form-check-label"  for="defaultCheck1">
+									WordPress Plugins
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								<label class="form-check-label" for="defaultCheck2">
+									PHP
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+								<label class="form-check-label" for="defaultCheck3">
+									CSS and Javascript
+								</label>
+							</div>
+							<hr>
+							<h3> Paymanet Info</h3>
+							<div class="row">
+								<div class="col">
+									<label for="disabledTextInput">Card Number</label>
+									<input type="text" id="disabledTextInput" class="form-control">
+								</div>
+
+								<div class="col">
+									<label for="disabledTextInput">CVV</label>
+									<input type="text" id="disabledTextInput01" class="form-control">
+								</div>
+
+								<div class="col">
+									<label for="validationInput">Zip</label>
+									<input type="text" id="validationInput02"  class="form-control"  >
+								</div>
+							</div>
+
+							<div class="row">
+
+								<label class="col-sm-6">
+									<div class="col"> Expiration Date</div>	
+									<select class="custom-select custom-select-sm" >
+										<option selected>1 - January.</option>
+										<option value="feb">1 - Febuary</option>
+										<option value="mar">1 - March</option>
+										<option value="apr">1 - April</option>
+										<option value="may">1 - May</option>
+										<option value="jun">1 - June</option>
+										<option value="jul">1 - Juliy</option>
+										<option value="aug">1 - Agust</option>
+										<option value="sept">1 - September</option>
+										<option value="oct">1 - Ooctober</option>
+										<option value="nov">1 - November</option>
+										<option value="dec">1 - Dicember</option>
+									</select>
+								</label>
+
+								<label class="col-sm-6">
+									<div class="col">Year</div>
+									<select class="custom-select custom-select-sm">
+										<option selected>2019</option>
+										<option value="2020">2020</option>
+										<option value="2021">2021</option>
+										<option value="2022">2022</option>
+										<option value="2023">2023</option>
+									</select>
+								</label>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Register</button>
+							</div>
+						</form>
+					</div>	
+				</div>
+			</div>
+			<!-- Modal end-->
+		</div> 
+							
+							
 	<!-- buttom Ends  -->
 	<!-- Graphic B.  -->
 			<div class="col-12 .col-sm-6 .col-lg-8">
@@ -53,7 +185,6 @@
 	<h6>
 	<p class=""> <center><strong>XSTREAMELITE </strong></center>  </p> 
 			</h6>
-		
 		
 		<div class="container">
   <div class="row">
